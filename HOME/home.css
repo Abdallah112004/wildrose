@@ -271,7 +271,7 @@ h2 {
     }
 
     .product-card {
-        min-height: auto;
+        min-height: fit-content;
     }
 
     .logo-link {
@@ -483,4 +483,8 @@ footer {
 .search-box {
     position: relative;
     width: 15em;
+}
+
+#username-display {
+    display: none;
 }

@@ -5,28 +5,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Product Details</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for icons -->
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="../HOME/nav&footer.css">
     <link rel="stylesheet" href="./details.css">
-    
 
+    <style>
+        .search-box {
+            position: relative;
+            width: 15em;
+        }
+    </style>
 </head>
 
 <body class="bg-light">
-    <!----------------------------------- text move ------------------------------------>
-    <marquee direction="left" class="text-move">
-        <div>promocode 15% : WILDROSE 15 <span>promocode 15% : WILDROSE 15</span> <span>promocode 15% : WILDROSE
-                15</span>
-        </div>
-    </marquee>
+
     <!------------------------------------- header ------------------------------------->
     <header class="header">
         <div class="header-top">
-            <div style="position: relative; width: 15em;">
+            <div class="search-box">
                 <input type="text" placeholder="Search For Products..." class="input" id="searchInput"
                     autocomplete="off" />
                 <div id="searchResults" class="dropdown-results"></div>
@@ -38,83 +48,73 @@
                 <a href="../HOME/Login.html" title="Profile">
                     <i class="far fa-user"></i>
                 </a>
-                <a href="../HOME/wishlist.html" title="Wishlist">
+                <a href="../HOME/wishlist.html" title="Wishlist" class="position-relative">
                     <i class="far fa-heart"></i>
                     <span class="icon-count" id="wishlistCount">0</span>
                 </a>
-                <a href="../HOME/cart.html" class="btn btn-outline-dark" title="Cart">
+                <a href="../HOME/cart.html" class="btn btn-outline-dark position-relative" title="Cart">
                     <i class="fas fa-shopping-cart"></i>
                     <span class="icon-count" id="cartCount">0</span>
                 </a>
             </div>
         </div>
+
         <!--------------------------------------------- navbar ----------------------------------------------->
         <nav class="navbar">
             <ul>
                 <li><a href="../HOME/home.html">HOME</a></li>
                 <li><a href="../MEN/test1.html">MEN</a></li>
-                <li><a href="../WOMEN/woman.html">Woman</a></li>
+                <li><a href="../WOMEN/woman.html">WOMAN</a></li>
                 <li><a href="../HOME/about us.html">ABOUT US</a></li>
                 <li><a href="../HOME/Contact us.html">CONTACT US</a></li>
             </ul>
         </nav>
-        <!---------------------------------------------- Main ------------------------------------------------>
-        <div class="container py-5">
-            <div id="productDetails" class="bg-white p-5 rounded-4 shadow-lg"></div>
+    </header>
+
+    <!---------------------------------------------- Main ------------------------------------------------>
+    <main class="container py-5">
+        <div id="productDetails" class="bg-white p-5 rounded-4 shadow-lg"></div>
+    </main>
+
+    <!-------------------------------------------- footer -------------------------------------------------->
+    <footer class="footer py-4">
+        <div>
+            <a href="../HOME/home.html">
+                <img src="../HOME/logo.png" alt="logo" class="footer-logo">
+            </a>
         </div>
 
-        <!-------------------------------------------- footer -------------------------------------------------->
-        <footer>
-            <div>
-                <a href="../HOME/home.html">
-                    <img src="../HOME/logo.png" alt="logo" class="footer-logo">
-                </a>
-            </div>
+        <div>
+            <div class="footer-title">MAIN MENU</div>
+            <ul class="footer-links">
+                <li><a href="../HOME/home.html" class="link">HOME</a></li>
+                <li><a href="../HOME/about us.html" class="link">ABOUT US</a></li>
+                <li><a href="../HOME/Contact us.html" class="link">CONTACT US</a></li>
+            </ul>
+        </div>
 
-            <div>
-                <div class="footer-title">MAIN MENU</div>
-                <ul class="footer-links">
-                    <a href="../HOME/home.html" class="link">
-                        <li>HOME</li>
-                    </a>
-                    <a href="../HOME/about us.html" class="link">
-                        <li>ABOUT US</li>
-                    </a>
-                    <a href="../HOME/Contact us.html" class="link">
-                        <li>CONTACT US</li>
-                    </a>
-                </ul>
-            </div>
+        <div>
+            <div class="footer-title">MORE</div>
+            <ul class="footer-links">
+                <li><a href="../HOME/Privacy Policy.html" class="link">PRIVACY POLICY</a></li>
+                <li><a href="../HOME/Shipping Policy.html" class="link">SHIPPING POLICY</a></li>
+                <li><a href="../HOME/Refund policy.html" class="link">REFUND POLICY</a></li>
+                <li><a href="../HOME/Terms&conditions.html" class="link">TERMS & CONDITIONS</a></li>
+            </ul>
+        </div>
 
-            <div>
-                <div class="footer-title">MORE</div>
-                <ul class="footer-links">
-                    <a href="../HOME/Privacy Policy.html" class="link">
-                        <li>PRIVACY POLICY</li>
-                    </a>
-                    <a href="../HOME/Shipping Policy.html" class="link">
-                        <li>SHIPPING POLICY</li>
-                    </a>
-                    <a href="../HOME/Refund policy.html" class="link">
-                        <li>REFUND POLICY</li>
-                    </a>
-                    <a href="../HOME/Terms&conditions.html" class="link">
-                        <li>TERMS & CONDITIONS</li>
-                    </a>
-                </ul>
+        <div>
+            <div class="footer-title">FOLLOW US</div>
+            <div class="social-icons">
+                <a href="#"><img src="../HOME/facebook.png" alt="facebook" class="facebook"></a>
+                <a href="#"><img src="../HOME/instagram.png" alt="instagram" class="instagram"></a>
+                <a href="#"><img src="../HOME/whatsapp.png" alt="whatsapp" class="whatsapp"></a>
             </div>
+        </div>
+    </footer>
 
-            <div>
-                <div class="footer-title">FOLLOW US</div>
-                <div class="social-icons">
-                    <a href="#"><img src="../HOME/facebook.png" alt="facebook" class="facebook"></a>
-                    <a href="#"><img src="../HOME/instagram.png" alt="instagram" class="instagram"></a>
-                    <a href="#"><img src="../HOME/whatsapp.png" alt="whatsapp" class="whatsapp"></a>
-                </div>
-            </div>
-        </footer>
-        <!------------------------------------ javascript -------------------------------------->
-        <script src="./details.js"></script>
+    <!------------------------------------ javascript -------------------------------------->
+    <script src="./details.js"></script>
 </body>
 
 </html>

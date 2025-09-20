@@ -4,33 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WILDROSE</title>
+    <title>WILDROSE - Terms & Conditions</title>
     <link rel="stylesheet" href="./terms&conditions.css">
     <link rel="stylesheet" href="./nav&footer.css">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
 </head>
 
 <body>
-    <!----------------------------------- text move ------------------------------------>
-    <marquee direction="left" class="text-move">
-        <div>promocode 15% : WILDROSE 15 <span>promocode 15% : WILDROSE 15</span> <span>promocode 15% : WILDROSE
-                15</span>
-        </div>
-    </marquee>
+
     <!------------------------------------- header ------------------------------------->
     <header class="header">
         <div class="header-top">
-            <input placeholder="Search For Products..." class="input" />
-            <a href="./home.html">
+            <input type="text" placeholder="Search For Products..." class="input" autocomplete="off" />
+            <a href="./home.html" class="logo-link">
                 <img class="logo" src="./logo.png" alt="logo">
             </a>
             <div class="icon-nav">
                 <a href="./Login.html" title="Profile">
                     <i class="far fa-user"></i>
                 </a>
-                <a href="wishlist.html" title="Wishlist">
+                <a href="./wishlist.html" title="Wishlist">
                     <i class="far fa-heart"></i>
                     <span class="icon-count" id="wishlistCount">0</span>
                 </a>
@@ -40,70 +34,63 @@
                 </a>
             </div>
         </div>
+
         <!----------------------------------- navbar -------------------------------------->
         <nav class="navbar">
             <ul>
                 <li><a href="./home.html">HOME</a></li>
                 <li><a href="../MEN/test1.html">MEN</a></li>
-                <li><a href="../WOMEN/woman.html">Woman</a></li>
+                <li><a href="../WOMEN/woman.html">WOMAN</a></li>
                 <li><a href="./about us.html">ABOUT US</a></li>
                 <li><a href="./Contact us.html">CONTACT US</a></li>
             </ul>
         </nav>
-        <!------------------------------------ main ---------------------------------------->
+    </header>
+
+    <!------------------------------------ main ---------------------------------------->
+    <main>
         <div id="terms-container"></div>
-        <!----------------------------------- footer --------------------------------------->
-        <footer>
-            <div>
-                <a href="./home.html">
-                    <img src="./logo.png" alt="logo" class="footer-logo">
-                </a>
-            </div>
+    </main>
 
-            <div>
-                <div class="footer-title">MAIN MENU</div>
-                <ul class="footer-links">
-                    <a href="./home.html" class="link">
-                        <li>HOME</li>
-                    </a>
-                    <a href="./about us.html" class="link">
-                        <li>ABOUT US</li>
-                    </a>
-                    <a href="./Contact us.html" class="link">
-                        <li>CONTACT US</li>
-                    </a>
-                </ul>
-            </div>
+    <!----------------------------------- footer --------------------------------------->
+    <footer>
+        <div>
+            <a href="./home.html">
+                <img src="./logo.png" alt="logo" class="footer-logo">
+            </a>
+        </div>
 
-            <div>
-                <div class="footer-title">MORE</div>
-                <ul class="footer-links">
-                    <a href="#" class="link">
-                        <li>PRIVACY POLICY</li>
-                    </a>
-                    <a href="#" class="link">
-                        <li>SHIPPING POLICY</li>
-                    </a>
-                    <a href="#" class="link">
-                        <li>REFUND POLICY</li>
-                    </a>
-                    <a href="#" class="link">
-                        <li>TERMS & CONDITIONS</li>
-                    </a>
-                </ul>
-            </div>
+        <div>
+            <div class="footer-title">MAIN MENU</div>
+            <ul class="footer-links">
+                <li><a href="./home.html" class="link">HOME</a></li>
+                <li><a href="./about us.html" class="link">ABOUT US</a></li>
+                <li><a href="./Contact us.html" class="link">CONTACT US</a></li>
+            </ul>
+        </div>
 
-            <div>
-                <div class="footer-title">FOLLOW US</div>
-                <div class="social-icons">
-                    <a href="#"><img src="./facebook.png" alt="facebook" class="facebook"></a>
-                    <a href="#"><img src="./instagram.png" alt="instagram" class="instagram"></a>
-                    <a href="#"><img src="./whatsapp.png" alt="whatsapp" class="whatsapp"></a>
-                </div>
+        <div>
+            <div class="footer-title">MORE</div>
+            <ul class="footer-links">
+                <li><a href="#" class="link">PRIVACY POLICY</a></li>
+                <li><a href="#" class="link">SHIPPING POLICY</a></li>
+                <li><a href="#" class="link">REFUND POLICY</a></li>
+                <li><a href="#" class="link">TERMS & CONDITIONS</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <div class="footer-title">FOLLOW US</div>
+            <div class="social-icons">
+                <a href="#"><img src="./facebook.png" alt="facebook" class="facebook"></a>
+                <a href="#"><img src="./instagram.png" alt="instagram" class="instagram"></a>
+                <a href="#"><img src="./whatsapp.png" alt="whatsapp" class="whatsapp"></a>
             </div>
-        </footer>
-        <!------------------------------------ javascript -------------------------------------->
-        <script src="./terms&conditions.js"></script>
+        </div>
+    </footer>
+
+    <!------------------------------------ javascript -------------------------------------->
+    <script src="./terms&conditions.js"></script>
 </body>
 
 </html>

@@ -9,94 +9,10 @@
     <link rel="stylesheet" href="./login.css">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        .login-container {
-            padding: 20px 0px 30px;
-            text-align: center;
-        }
-    
-        .label1 {
-            margin-right: 25%;
-            color: #444;
-        }
-    
-        .label2 {
-            margin-right: 31%;
-            color: #444;
-        }
-    
-        .login-container input {
-            width: 35%;
-            padding: 12px;
-            margin: 12px 0px 25px;
-            border-radius: 5px;
-            font-size: 14px;
-            box-sizing: border-box;
-        }
-    
-        .login-container button {
-            width: 35%;
-            padding: 12px;
-            background-color: #000;
-            color: #fff;
-            font-size: 14px;
-            border-radius: 5px;
-            letter-spacing: 1px;
-        }
-    
-        .login-container button:hover {
-            background-color: #aaa;
-        }
-    
-        .login-container .links {
-            margin-top: 15px;
-            font-size: 15px;
-        }
-    
-        .login-container .links a {
-            color: black;
-            margin: 0 5px;
-        }
-    
-        .password-wrapper {
-            position: relative;
-            width: 35%;
-            margin: 0 auto;
-        }
-    
-        .toggle-password {
-            position: absolute;
-            right: 10px;
-            top: 50%;
-            transform: translateY(-50%);
-            cursor: pointer;
-        }
-    
-        .toggle-password::before {
-            content: "\f06e";
-            font-family: "Font Awesome 6 Free";
-            font-weight: 900;
-        }
-    
-        .toggle-password.hide::before {
-            content: "\f070";
-        }
-    
-        .error {
-            color: red;
-            font-size: 14px;
-            margin-top: 10px;
-        }
-    </style>
 </head>
 
 <body>
-    <!----------------------------------- text move ------------------------------------>
-    <marquee direction="left" class="text-move">
-        <div>promocode 15% : WILDROSE 15 <span>promocode 15% : WILDROSE 15</span> <span>promocode 15% : WILDROSE
-                15</span>
-        </div>
-    </marquee>
+
     <!------------------------------------- header ------------------------------------->
     <header class="header">
         <div class="header-top">
@@ -121,83 +37,73 @@
             <ul>
                 <li><a href="./home.html">HOME</a></li>
                 <li><a href="../MEN/test1.html">MEN</a></li>
-                <li><a href="../WOMEN/woman.html">Woman</a></li>
+                <li><a href="../WOMEN/woman.html">WOMAN</a></li>
                 <li><a href="./about us.html">ABOUT US</a></li>
                 <li><a href="./Contact us.html">CONTACT US</a></li>
             </ul>
         </nav>
-        <!------------------------------------ Main ---------------------------------------->
-        <div class="login-container">
-            <h2>LOGIN</h2>
-            <form id="loginForm">
-                <label class="label1" for="email">Email</label><br />
-                <input type="text" id="email" name="email" placeholder="Enter Email" required /><br />
-        
-                <label class="label2" for="password">Password</label>
-                <div class="password-wrapper">
-                    <input type="password" id="password" name="password" placeholder="Enter Password" required />
-                    <span class="toggle-password" onclick="togglePassword(this)"></span>
-                </div>
-        
-                <button type="submit">LOGIN</button>
-                <div class="links">
-                    <a href="./signin.html">Don't have an account? Register</a>
-                </div>
-                <div id="error" class="error"></div>
-            </form>
+    </header>
+
+    <!------------------------------------ Main ---------------------------------------->
+    <main class="login-container">
+        <h2>LOGIN</h2>
+        <form id="loginForm">
+            <label class="label1" for="email">Email</label><br />
+            <input type="text" id="email" name="email" placeholder="Enter Email" required /><br />
+
+            <label class="label2" for="password">Password</label>
+            <div class="password-wrapper">
+                <input type="password" id="password" name="password" placeholder="Enter Password" required />
+                <span class="toggle-password" onclick="togglePassword(this)"></span>
+            </div>
+
+            <button type="submit">LOGIN</button>
+            <div class="links">
+                <a href="./signin.html">Don't have an account? Register</a>
+            </div>
+            <div id="error" class="error"></div>
+        </form>
+    </main>
+
+    <!----------------------------------- footer --------------------------------------->
+    <footer>
+        <div>
+            <a href="./home.html">
+                <img src="./logo.png" alt="logo" class="footer-logo">
+            </a>
         </div>
-        <!----------------------------------- footer --------------------------------------->
-        <footer>
-            <div>
-                <a href="./home.html">
-                    <img src="./logo.png" alt="logo" class="footer-logo">
-                </a>
-            </div>
 
-            <div>
-                <div class="footer-title">MAIN MENU</div>
-                <ul class="footer-links">
-                    <a href="./home.html" class="link">
-                        <li>HOME</li>
-                    </a>
-                    <a href="./about us.html" class="link">
-                        <li>ABOUT US</li>
-                    </a>
-                    <a href="./Contact us.html" class="link">
-                        <li>CONTACT US</li>
-                    </a>
-                </ul>
-            </div>
+        <div>
+            <div class="footer-title">MAIN MENU</div>
+            <ul class="footer-links">
+                <li><a href="./home.html" class="link">HOME</a></li>
+                <li><a href="./about us.html" class="link">ABOUT US</a></li>
+                <li><a href="./Contact us.html" class="link">CONTACT US</a></li>
+            </ul>
+        </div>
 
-            <div>
-                <div class="footer-title">MORE</div>
-                <ul class="footer-links">
-                    <a href="#" class="link">
-                        <li>PRIVACY POLICY</li>
-                    </a>
-                    <a href="#" class="link">
-                        <li>SHIPPING POLICY</li>
-                    </a>
-                    <a href="#" class="link">
-                        <li>REFUND POLICY</li>
-                    </a>
-                    <a href="#" class="link">
-                        <li>TERMS & CONDITIONS</li>
-                    </a>
-                </ul>
-            </div>
+        <div>
+            <div class="footer-title">MORE</div>
+            <ul class="footer-links">
+                <li><a href="#" class="link">PRIVACY POLICY</a></li>
+                <li><a href="#" class="link">SHIPPING POLICY</a></li>
+                <li><a href="#" class="link">REFUND POLICY</a></li>
+                <li><a href="#" class="link">TERMS & CONDITIONS</a></li>
+            </ul>
+        </div>
 
-            <div>
-                <div class="footer-title">FOLLOW US</div>
-                <div class="social-icons">
-                    <a href="#"><img src="./facebook.png" alt="facebook" class="facebook"></a>
-                    <a href="#"><img src="./instagram.png" alt="instagram" class="instagram"></a>
-                    <a href="#"><img src="./whatsapp.png" alt="whatsapp" class="whatsapp"></a>
-                </div>
+        <div>
+            <div class="footer-title">FOLLOW US</div>
+            <div class="social-icons">
+                <a href="#"><img src="./facebook.png" alt="facebook" class="facebook"></a>
+                <a href="#"><img src="./instagram.png" alt="instagram" class="instagram"></a>
+                <a href="#"><img src="./whatsapp.png" alt="whatsapp" class="whatsapp"></a>
             </div>
-        </footer>
-        <!------------------------------------ javascript -------------------------------------->
-        <script src="./login.js"></script>
+        </div>
+    </footer>
+
+    <!------------------------------------ javascript -------------------------------------->
+    <script src="./login.js"></script>
     <script>
         function togglePassword(element) {
             const passwordInput = document.getElementById("password");
@@ -218,13 +124,12 @@
             const errorDiv = document.getElementById("error");
 
             const users = JSON.parse(localStorage.getItem("users")) || [];
-
             const user = users.find(user => user.email === email && user.password === password);
 
             if (user) {
-                localStorage.setItem("username", user.username); // ✅ أهم سطر!
+                localStorage.setItem("username", user.username);
                 alert("Login successful! Welcome " + user.username);
-                window.location.href = "./Home.html";
+                window.location.href = "./home.html";
             } else {
                 errorDiv.textContent = "Invalid email or password";
             }

@@ -340,3 +340,8 @@ footer {
         text-decoration: underline double;
     }
 }
+
+.search-box {
+    position: relative;
+    width: 15em;
+}
