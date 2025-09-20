@@ -10,15 +10,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./about us.css">
+
+    <style>
+        /* بدل marquee */
+        .text-move {
+            overflow: hidden;
+            white-space: nowrap;
+            background: #f8f8f8;
+            padding: 5px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .text-move div {
+            display: inline-block;
+            padding-left: 100%;
+            animation: scroll-left 15s linear infinite;
+        }
+
+        @keyframes scroll-left {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <!----------------------------------- text move ------------------------------------>
-    <marquee direction="left" class="text-move">
-        <div>promocode 15% : WILDROSE 15 <span>promocode 15% : WILDROSE 15</span> <span>promocode 15% : WILDROSE
-                15</span>
-        </div>
-    </marquee>
+
+
     <!------------------------------------- header ------------------------------------->
     <header class="header">
         <div class="header-top">
@@ -34,135 +57,114 @@
                     <i class="far fa-heart"></i>
                     <span class="icon-count" id="wishlistCount">0</span>
                 </a>
-            <a href="./cart.html" title="Cart">
-                <i class="fas fa-shopping-cart"></i>
-                <span class="icon-count" id="cartCount">0</span>
-            </a>
+                <a href="./cart.html" title="Cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="icon-count" id="cartCount">0</span>
+                </a>
             </div>
         </div>
+
         <!--------------------------------------------- navbar ----------------------------------------------->
         <nav class="navbar">
             <ul>
                 <li><a href="./home.html">HOME</a></li>
                 <li><a href="../MEN/test1.html">MEN</a></li>
-                <li><a href="../WOMEN/woman.html">Woman</a></li>
+                <li><a href="../WOMEN/woman.html">WOMAN</a></li>
                 <li><a href="./about us.html">ABOUT US</a></li>
                 <li><a href="./Contact us.html">CONTACT US</a></li>
             </ul>
         </nav>
-        <!---------------------------------------------- main ------------------------------------------------>
-        <div class="breadcrumb">
-            HOME &gt; ABOUT US
+    </header>
+
+    <!---------------------------------------------- main ------------------------------------------------>
+    <div class="breadcrumb">
+        HOME &gt; ABOUT US
+    </div>
+    <div class="content">
+        <div class="text-section">
+            <h1>ABOUT US</h1>
+            <h2>The Vision Behind the Brand</h2>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+                sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+            </p>
         </div>
-        <div class="content">
-            <div class="text-section">
-                <h1>ABOUT US</h1>
-                <h2>The Vision Behind the Brand</h2>
-                <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
-                    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                </p>
-            </div>
-        
-            <div class="image-section">
-                <img src="./men.jpg" alt="Group Photo 1" class="leftImg" />
-                <img src="./women.jpg" alt="Group Photo 2" />
-            </div>  
+
+        <div class="image-section">
+            <img src="./men.jpg" alt="Group Photo 1" class="leftImg" />
+            <img src="./women.jpg" alt="Group Photo 2" />
         </div>
-        <!-------------------------------------------- footer -------------------------------------------------->
-        <footer>
-            <div>
-                <a href="./home.html">
-                    <img src="./logo.png" alt="logo" class="footer-logo">
-                </a>
-            </div>
+    </div>
 
-            <div>
-                <div class="footer-title">MAIN MENU</div>
-                <ul class="footer-links">
-                    <a href="./home.html" class="link">
-                        <li>HOME</li>
-                    </a>
-                    <a href="./about us.html" class="link">
-                        <li>ABOUT US</li>
-                    </a>
-                    <a href="./Contact us.html" class="link">
-                        <li>CONTACT US</li>
-                    </a>
-                </ul>
-            </div>
+    <!-------------------------------------------- footer -------------------------------------------------->
+    <footer>
+        <div>
+            <a href="./home.html">
+                <img src="./logo.png" alt="logo" class="footer-logo">
+            </a>
+        </div>
 
-            <div>
-                <div class="footer-title">MORE</div>
-                <ul class="footer-links">
-                    <a href="./Privacy Policy.html" class="link">
-                        <li>PRIVACY POLICY</li>
-                    </a>
-                    <a href="./Shipping Policy.html" class="link">
-                        <li>SHIPPING POLICY</li>
-                    </a>
-                    <a href="./Refund policy.html" class="link">
-                        <li>REFUND POLICY</li>
-                    </a>
-                    <a href="./Terms&conditions.html" class="link">
-                        <li>TERMS & CONDITIONS</li>
-                    </a>
-                </ul>
-            </div>
+        <div>
+            <div class="footer-title">MAIN MENU</div>
+            <ul class="footer-links">
+                <li><a href="./home.html" class="link">HOME</a></li>
+                <li><a href="./about us.html" class="link">ABOUT US</a></li>
+                <li><a href="./Contact us.html" class="link">CONTACT US</a></li>
+            </ul>
+        </div>
 
-            <div>
-                <div class="footer-title">FOLLOW US</div>
-                <div class="social-icons">
-                    <a href="#"><img src="./facebook.png" alt="facebook" class="facebook"></a>
-                    <a href="#"><img src="./instagram.png" alt="instagram" class="instagram"></a>
-                    <a href="#"><img src="./whatsapp.png" alt="whatsapp" class="whatsapp"></a>
-                </div>
-            </div>
-        </footer>
+        <div>
+            <div class="footer-title">MORE</div>
+            <ul class="footer-links">
+                <li><a href="#" class="link">PRIVACY POLICY</a></li>
+                <li><a href="#" class="link">SHIPPING POLICY</a></li>
+                <li><a href="#" class="link">REFUND POLICY</a></li>
+                <li><a href="#" class="link">TERMS & CONDITIONS</a></li>
+            </ul>
+        </div>
 
-        <script>function updateCartCount() {
-                const cart = JSON.parse(localStorage.getItem('cart')) || [];
-                const totalCount = cart.reduce((sum, item) => sum + (item.quantity || 1), 0);
-                document.getElementById('cartCount').textContent = totalCount;
+        <div>
+            <div class="footer-title">FOLLOW US</div>
+            <div class="social-icons">
+                <a href="#"><img src="./facebook.png" alt="facebook" class="facebook"></a>
+                <a href="#"><img src="./instagram.png" alt="instagram" class="instagram"></a>
+                <a href="#"><img src="./whatsapp.png" alt="whatsapp" class="whatsapp"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-------------------------------------------- scripts ------------------------------------------------->
+    <script>
+        function updateCartCount() {
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const totalCount = cart.reduce((sum, item) => sum + (item.quantity || 1), 0);
+            const cartCountElement = document.getElementById('cartCount');
+            if (cartCountElement) {
+                cartCountElement.textContent = totalCount;
             }
-            updateCartCount(); // ← استدعاء عند تحميل الصفحة
-
-
-    function updateCartCount() {
-        const cart = JSON.parse(localStorage.getItem('cart')) || [];
-        const totalCount = cart.reduce((sum, item) => sum + (item.quantity || 1), 0);
-        const cartCountElement = document.getElementById('cartCount');
-        if (cartCountElement) {
-            cartCountElement.textContent = totalCount;
         }
-    }
 
-    function updateWishlistCount() {
-        const wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
-        const wishlistCountElement = document.getElementById('wishlistCount');
-        if (wishlistCountElement) {
-            wishlistCountElement.textContent = wishlist.length;
+        function updateWishlistCount() {
+            const wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+            const wishlistCountElement = document.getElementById('wishlistCount');
+            if (wishlistCountElement) {
+                wishlistCountElement.textContent = wishlist.length;
+            }
         }
-    }
 
-    function clearWishlist() {
-        if (confirm("Are you sure you want to clear your wishlist?")) {
-            const wishlist = []; // ← استخدم const أو let بدلاً من إعادة تعيين متغير خارجي
-            localStorage.setItem('wishlist', JSON.stringify(wishlist));
-            renderWishlist();           // ← افترض أن هذه الدالة تعرض المفضلة
-            updateWishlistCount();     // ← تحديث العداد
+        function clearWishlist() {
+            if (confirm("Are you sure you want to clear your wishlist?")) {
+                const wishlist = [];
+                localStorage.setItem('wishlist', JSON.stringify(wishlist));
+                updateWishlistCount();
+            }
         }
-    }
 
-    // ← استدعاء الدوال عند تحميل الصفحة
-    updateCartCount();
-    updateWishlistCount();
-    // renderWishlist();
-
-
-
-</script>
+        // استدعاء عند تحميل الصفحة
+        updateCartCount();
+        updateWishlistCount();
+    </script>
 </body>
 
 </html>
