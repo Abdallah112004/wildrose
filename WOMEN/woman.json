@@ -1,0 +1,434 @@
+[
+    {
+        "id": "1",
+        "size": "4xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": " Chiffon dress",
+        "imgsrc": "./pp1.jpg"
+    },
+    {
+        "id": "2",
+        "size": "3xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 600",
+        "catogry": "women",
+        "type": "Cotton cardigan",
+        "imgsrc": "./pp2.jpg"
+    },
+    {
+        "id": "3",
+        "size": "2xL",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1200",
+        "catogry": "women",
+        "type": "denim dress",
+        "imgsrc": "./pp3.jpg"
+    },
+    {
+        "id": "4",
+        "size": "xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": "Silk cardigan",
+        "imgsrc": "./pp4.jpg"
+    },
+    {
+        "id": "5",
+        "size": "l",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1500",
+        "catogry": "women",
+        "type": " silk dress",
+        "imgsrc": "./pp5.jpg"
+    },
+    {
+        "id": "6",
+        "size": "md",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 2000",
+        "catogry": "women",
+        "type": "Lace dress",
+        "imgsrc": "./pp6.jpg"
+    },
+    {
+        "id": "7",
+        "size": "sm",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": "satin suit",
+        "imgsrc": "./pp7.jpg"
+    },
+    {
+        "id": "8",
+        "size": "xs",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": " Chiffon dress",
+        "imgsrc": "./PP8.jpg"
+    },
+    {
+        "id": "9",
+        "size": "4xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 600",
+        "catogry": "women",
+        "type": "Cotton cardigan",
+        "imgsrc": "./PP9.jpg"
+    },
+    {
+        "id": "10",
+        "size": "3xL",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1200",
+        "catogry": "women",
+        "type": "denim dress",
+        "imgsrc": "./PP10.jpg"
+    },
+    {
+        "id": "11",
+        "size": "2xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": "Silk cardigan",
+        "imgsrc": "./PP11.jpg"
+    },
+    {
+        "id": "12",
+        "size": "xL",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1500",
+        "catogry": "women",
+        "type": " silk dress",
+        "imgsrc": "./PP12.jpg"
+    },
+    {
+        "id": "13",
+        "size": "L",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 2000",
+        "catogry": "women",
+        "type": "Lace dress",
+        "imgsrc": "./PP13.jpg"
+    },
+    {
+        "id": "14",
+        "size": "md",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": "satin suit",
+        "imgsrc": "./PP14.jpg"
+    },
+    {
+        "id": "15",
+        "size": "sm",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": " Chiffon dress",
+        "imgsrc": "./PP15.jpg"
+    },
+    {
+        "id": "16",
+        "size": "xs",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 600",
+        "catogry": "women",
+        "type": "Cotton cardigan",
+        "imgsrc": "./PP16.jpg"
+    },
+    {
+        "id": "17",
+        "size": "4xL",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1200",
+        "catogry": "women",
+        "type": "denim dress",
+        "imgsrc": "./PP17.jpg"
+    },
+    {
+        "id": "18",
+        "size": "3xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": "Silk cardigan",
+        "imgsrc": "./PP18.jpg"
+    },
+    {
+        "id": "19",
+        "size": "2xL",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1500",
+        "catogry": "women",
+        "type": " silk dress",
+        "imgsrc": "./PP19.jpg"
+    },
+    {
+        "id": "20",
+        "size": "xL",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 2000",
+        "catogry": "women",
+        "type": "Lace dress",
+        "imgsrc": "./PP20.jpg"
+    },
+    {
+        "id": "21",
+        "size": "l",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": " Chiffon dress",
+        "imgsrc": "./pp21.jpg"
+    },
+    {
+        "id": "22",
+        "size": "md",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 600",
+        "catogry": "women",
+        "type": "Cotton cardigan",
+        "imgsrc": "./pp22.jpg"
+    },
+    {
+        "id": "23",
+        "size": "sm",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1200",
+        "catogry": "women",
+        "type": "denim dress",
+        "imgsrc": "./pp23.jpg"
+    },
+    {
+        "id": "24",
+        "size": "xs",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": "Silk cardigan",
+        "imgsrc": "./pp24.jpg"
+    },
+    {
+        "id": "25",
+        "size": "4xL",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1500",
+        "catogry": "women",
+        "type": " silk dress",
+        "imgsrc": "./pp25.jpg"
+    },
+    {
+        "id": "26",
+        "size": "4xL",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 2000",
+        "catogry": "women",
+        "type": "Lace dress",
+        "imgsrc": "./pp26.jpg"
+    },
+    {
+        "id": "27",
+        "size": "4xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": "satin suit",
+        "imgsrc": "./pp27.jpg"
+    },
+    {
+        "id": "28",
+        "size": "3xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": " Chiffon dress",
+        "imgsrc": "./PP28.jpg"
+    },
+    {
+        "id": "29",
+        "size": "3xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 600",
+        "catogry": "women",
+        "type": "Cotton cardigan",
+        "imgsrc": "./PP29.jpg"
+    },
+    {
+        "id": "30",
+        "size": "3xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1200",
+        "catogry": "women",
+        "type": "denim dress",
+        "imgsrc": "./PP30.jpg"
+    },
+    {
+        "id": "31",
+        "size": "2xL",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": "Silk cardigan",
+        "imgsrc": "./PP31.jpg"
+    },
+    {
+        "id": "32",
+        "size": "2xL",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1500",
+        "catogry": "women",
+        "type": " silk dress",
+        "imgsrc": "./PP32.jpg"
+    },
+    {
+        "id": "33",
+        "size": "2xL",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 2000",
+        "catogry": "women",
+        "type": "Lace dress",
+        "imgsrc": "./PP33.jpg"
+    },
+    {
+        "id": "34",
+        "size": "xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": "satin suit",
+        "imgsrc": "./PP34.jpg"
+    },
+    {
+        "id": "35",
+        "size": "xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": " Chiffon dress",
+        "imgsrc": "./PP35.jpg"
+    },
+    {
+        "id": "36",
+        "size": "xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 600",
+        "catogry": "women",
+        "type": "Cotton cardigan",
+        "imgsrc": "./PP36.jpg"
+    },
+    {
+        "id": "37",
+        "size": "L",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1200",
+        "catogry": "women",
+        "type": "denim dress",
+        "imgsrc": "./PP37.jpg"
+    },
+    {
+        "id": "38",
+        "size": "L",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": "Silk cardigan",
+        "imgsrc": "./PP38.jpg"
+    },
+    {
+        "id": "39",
+        "size": "L",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1500",
+        "catogry": "women",
+        "type": " silk dress",
+        "imgsrc": "./PP39.jpg"
+    },
+    {
+        "id": "40",
+        "size": "md",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 2000",
+        "catogry": "women",
+        "type": "Lace dress",
+        "imgsrc": "./PP40.jpg"
+    },
+    {
+        "id": "41",
+        "size": "md",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1500",
+        "catogry": "women",
+        "type": " silk dress",
+        "imgsrc": "./PP41.jpg"
+    },
+    {
+        "id": "42",
+        "size": "md",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 2000",
+        "catogry": "women",
+        "type": "Lace dress",
+        "imgsrc": "./PP42.jpg"
+    },
+    {
+        "id": "43",
+        "size": "sm",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": "satin suit",
+        "imgsrc": "./PP43.jpg"
+    },
+    {
+        "id": "45",
+        "size": "sm",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": " Chiffon dress",
+        "imgsrc": "./PP45.jpg"
+    },
+    {
+        "id": "46",
+        "size": "sm",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 600",
+        "catogry": "women",
+        "type": "Cotton cardigan",
+        "imgsrc": "./PP46.jpg"
+    },
+    {
+        "id": "47",
+        "size": "xs",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1200",
+        "catogry": "women",
+        "type": "denim dress",
+        "imgsrc": "./PP47.jpg"
+    },
+    {
+        "id": "48",
+        "size": "xs",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": "Silk cardigan",
+        "imgsrc": "./PP48.jpg"
+    },
+    {
+        "id": "49",
+        "size": "xs",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1500",
+        "catogry": "women",
+        "type": " silk dress",
+        "imgsrc": "./PP49.jpg"
+    }
+]

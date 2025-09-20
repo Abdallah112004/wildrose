@@ -1,0 +1,13 @@
+.section {
+    width: 90%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 29px;
+}

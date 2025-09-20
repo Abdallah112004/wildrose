@@ -1,0 +1,149 @@
+[
+    {
+        "id": "1",
+        "size": "4xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 500",
+        "catogry": "men",
+        "type": " Microfiber shirt",
+        "imgsrc": "./p1.jpg"
+    },
+    {
+        "id": "2",
+        "size": "3xl",
+        "title": "MIZAYA Men's Half Sleeve T-Shirt",
+        "price": " $ 300",
+        "catogry": "men",
+        "type": "Cotton Shirt",
+        "imgsrc": "./p2.jpg"
+    },
+    {
+        "id": "3",
+        "size": "4xL",
+        "title": "Mizah Men's Classic Plain Shirt",
+        "price": " $ 600",
+        "catogry": "men",
+        "type": "Cotton T-Shirt",
+        "imgsrc": "./p3.jpg"
+    },
+    {
+        "id": "4",
+        "size": "3xl",
+        "title": "Andora Mens Slash Pockets Elastic Waist Sweatpants Pants",
+        "price": " $ 500",
+        "catogry": "men",
+        "type": "cotton pants",
+        "imgsrc": "./p4.jpg"
+    },
+    {
+        "id": "5",
+        "size": "4xL",
+        "title": "MIZAYEH Men's Polo Shirt Contrast Sleeve Half ",
+        "price": " $400",
+        "catogry": "men",
+        "type": " cotton T-shirt",
+        "imgsrc": "./p5.jpg"
+    },
+    {
+        "id": "6",
+        "size": "3xL",
+        "title": "Classic Men's Navy Suit",
+        "price": " $ 2000",
+        "catogry": "men",
+        "type": "Classic Solid Suit ",
+        "imgsrc": "./p6.jpg"
+    },
+    {
+        "id": "7",
+        "size": "2xl",
+        "title": "Men's Classic Dark Grey Suit Dark Grey",
+        "price": " $ 3000",
+        "catogry": "men",
+        "type": "Classic Solid suit",
+        "imgsrc": "./p7.jpg"
+    },
+ 
+    
+    {
+        "id": "48",
+        "size": "xs",
+        "title": "Andora Mens Slash Pockets Elastic Waist Sweatpants Pants",
+        "price": " $ 500",
+        "catogry": "men",
+        "type": "cotton pants",
+        "imgsrc": "./p48.jpg"
+    },
+    {
+        "id": "52",
+        "size": "4xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": " Chiffon dress",
+        "imgsrc": "./pp1.jpg"
+    },
+    {
+        "id": "53",
+        "size": "3xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 600",
+        "catogry": "women",
+        "type": "Cotton cardigan",
+        "imgsrc": "./pp2.jpg"
+    },
+    {
+        "id": "54",
+        "size": "2xL",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1200",
+        "catogry": "women",
+        "type": "denim dress",
+        "imgsrc": "./pp3.jpg"
+    },
+    {
+        "id": "55",
+        "size": "xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": "Silk cardigan",
+        "imgsrc": "./pp4.jpg"
+    },
+    {
+        "id": "58",
+        "size": "sm",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": "satin suit",
+        "imgsrc": "./pp7.jpg"
+    },
+    {
+        "id": "59",
+        "size": "xs",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1000",
+        "catogry": "women",
+        "type": " Chiffon dress",
+        "imgsrc": "./PP8.jpg"
+    },
+    {
+        "id": "60",
+        "size": "4xl",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 600",
+        "catogry": "women",
+        "type": "Cotton cardigan",
+        "imgsrc": "./PP9.jpg"
+    },
+
+    {
+        "id": "99",
+        "size": "xs",
+        "title": "Long-sleeved summer dress made of abaya fabric",
+        "price": " $ 1500",
+        "catogry": "women",
+        "type": " silk dress",
+        "imgsrc": "./PP49.jpg"
+    }
+]

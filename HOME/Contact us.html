@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WILDROSE</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./nav&footer.css">
+    <link href="./contact us.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--------------------------------------------- text move ------------------------------------------------>
+    <marquee direction="left" class="text-move">
+        <div>promocode 15% : WILDROSE 15 <span>promocode 15% : WILDROSE 15</span> <span>promocode 15% : WILDROSE
+                15</span>
+        </div>
+    </marquee>
+    <!----------------------------------------------- header ------------------------------------------------->
+    <header class="header">
+        <div class="header-top">
+            <input placeholder="Search For Products..." class="input" />
+            <a href="./home.html">
+                <img class="logo" src="./logo.png" alt="logo">
+            </a>
+            <div class="icon-nav">
+                <a href="./Login.html" title="Profile">
+                    <i class="far fa-user"></i>
+                </a>
+                <a href="./wishlist.html" title="Wishlist">
+                    <i class="far fa-heart"></i>
+                    <span class="icon-count" id="wishlistCount">0</span>
+                </a>
+        <a href="./cart.html" title="Cart">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="icon-count" id="cartCount">0</span>
+        </a>
+            </div>
+        </div>
+        <!--------------------------------------------- navbar ----------------------------------------------->
+        <nav class="navbar">
+            <ul>
+                <li><a href="./home.html">HOME</a></li>
+                <li><a href="../MEN/test1.html">MEN</a></li>
+                <li><a href="../WOMEN/woman.html">Woman</a></li>
+                <li><a href="./about us.html">ABOUT US</a></li>
+                <li><a href="./Contact us.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <!--------------------------------------------- main ----------------------------------------------->
+        <div class="breadcrumb">
+            HOME &gt; CONTACT US
+        </div>
+        <div class="container">
+            <div class="left">
+                <h2>Contact Us</h2>
+                <div class="contact-item">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/email.png" alt="Email" />
+                    <span>6804c4417eb65@tabex-co.com</span>
+                </div>
+                <div class="contact-item">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/phone.png" alt="Phone" />
+                    <span>01098433646</span>
+                </div>
+                <div class="contact-item">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/marker.png" alt="Location" />
+                    <span>Egypt</span>
+                </div>
+            </div>
+        
+            <div class="right">
+                <img src="./123.jpg" alt="Scorpio-Logo" />
+            </div>
+        </div>
+
+        <!--------------------------------------------- footer ----------------------------------------------->
+        <footer>
+            <div>
+                <a href="./home.html">
+                    <img src="./logo.png" alt="logo" class="footer-logo">
+                </a>
+            </div>
+
+            <div>
+                <div class="footer-title">MAIN MENU</div>
+                <ul class="footer-links">
+                    <a href="./home.html" class="link">
+                        <li>HOME</li>
+                    </a>
+                    <a href="./about us.html" class="link">
+                        <li>ABOUT US</li>
+                    </a>
+                    <a href="./Contact us.html" class="link">
+                        <li>CONTACT US</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div>
+                <div class="footer-title">MORE</div>
+                <ul class="footer-links">
+                    <a href="./Privacy Policy.html" class="link">
+                        <li>PRIVACY POLICY</li>
+                    </a>
+                    <a href="./Shipping Policy.html" class="link">
+                        <li>SHIPPING POLICY</li>
+                    </a>
+                    <a href="./Refund policy.html" class="link">
+                        <li>REFUND POLICY</li>
+                    </a>
+                    <a href="./Terms&conditions.html" class="link">
+                        <li>TERMS & CONDITIONS</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div>
+                <div class="footer-title">FOLLOW US</div>
+                <div class="social-icons">
+                    <a href="#"><img src="./facebook.png" alt="facebook" class="facebook"></a>
+                    <a href="#"><img src="./instagram.png" alt="instagram" class="instagram"></a>
+                    <a href="#"><img src="./whatsapp.png" alt="whatsapp" class="whatsapp"></a>
+                </div>
+            </div>
+        </footer>
+
+
+        <script>function updateCartCount() {
+                const cart = JSON.parse(localStorage.getItem('cart')) || [];
+                const totalCount = cart.reduce((sum, item) => sum + (item.quantity || 1), 0);
+                document.getElementById('cartCount').textContent = totalCount;
+            }
+            updateCartCount(); // ← استدعاء عند تحميل الصفحة
+
+
+    function updateCartCount() {
+        const cart = JSON.parse(localStorage.getItem('cart')) || [];
+        const totalCount = cart.reduce((sum, item) => sum + (item.quantity || 1), 0);
+        const cartCountElement = document.getElementById('cartCount');
+        if (cartCountElement) {
+            cartCountElement.textContent = totalCount;
+        }
+    }
+
+    function updateWishlistCount() {
+        const wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+        const wishlistCountElement = document.getElementById('wishlistCount');
+        if (wishlistCountElement) {
+            wishlistCountElement.textContent = wishlist.length;
+        }
+    }
+
+    function clearWishlist() {
+        if (confirm("Are you sure you want to clear your wishlist?")) {
+            const wishlist = []; // ← استخدم const أو let بدلاً من إعادة تعيين متغير خارجي
+            localStorage.setItem('wishlist', JSON.stringify(wishlist));
+            renderWishlist();           // ← افترض أن هذه الدالة تعرض المفضلة
+            updateWishlistCount();     // ← تحديث العداد
+        }
+    }
+
+    // ← استدعاء الدوال عند تحميل الصفحة
+    updateCartCount();
+    updateWishlistCount();
+    // renderWishlist();
+
+
+        </script>
+        
+</body>
+
+</html>

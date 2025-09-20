@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WILDROSE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./nav&footer.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!----------------------------------- text move ------------------------------------>
+    <marquee direction="left" class="text-move">
+        <div>promocode 15% : WILDROSE 15 <span>promocode 15% : WILDROSE 15</span> <span>promocode 15% : WILDROSE
+                15</span>
+        </div>
+    </marquee>
+    <!------------------------------------- header ------------------------------------->
+    <header class="header">
+        <div class="header-top">
+            <div style="position: relative; width: 15em;">
+                <input type="text" placeholder="Search For Products..." class="input" id="searchInput" autocomplete="off" />
+                <div id="searchResults" class="dropdown-results"></div>
+            </div>
+            
+            <a href="./home.html" class="logo-link">
+                <img class="logo" src="./logo.png" alt="logo">
+            </a>
+            <div class="icon-nav">
+                <a href="./Login.html" title="Profile" id="profile-link">
+                    <i class="far fa-user"></i>
+                    <span id="username-display" style="display: none;">
+                        <span id="username"></span>
+                    </span>
+                </a>
+                <a href="./wishlist.html" title="Wishlist">
+                    <i class="far fa-heart"></i>
+                    <span class="icon-count" id="wishlistCount">0</span>
+                </a>
+                <a href="./cart.html" title="Cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="icon-count" id="cartCount">0</span>
+                </a>
+            </div>
+        </div>
+        <!----------------------------------- navbar -------------------------------------->
+        <nav class="navbar">
+            <ul>
+                <li><a href="./home.html">HOME</a></li>
+                <li><a href="../MEN/test1.html">MEN</a></li>
+                <li><a href="../WOMEN/woman.html">Woman</a></li>
+                <li><a href="./about us.html">ABOUT US</a></li>
+                <li><a href="./Contact us.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <!----------------------------------------------- -Main ------------------------------------------------------->
+
+        <body class="bg-light">
+        <!-- واجهة الموقع -->
+        <div class="hero-image"></div>
+        
+        <!-- عنوان القسم -->
+        <h2>Shop By Category</h2>
+        
+        <!-- أقسام المنتجات -->
+        <section class="shop-section">
+            <a href="../MEN/test1.html" class="category-link">
+                <div class="category-card">
+                    <img src="./men.jpg" alt="Non Hijab Collection">
+                    <div class="category-label">MEN</div>
+                </div>
+            </a>
+        
+            <a href="../WOMEN/woman.html" class="category-link">
+                <div class="category-card">
+                    <img src="women.jpg" alt="Hijab Collection">
+                    <div class="category-label">WOMEN</div>
+                </div>
+            </a>
+        </section>
+
+            <div class="container-fluid py-4">
+                <div class="row g-4">
+                    <!-- النصف الأيمن: Group A -->
+                    <div class="col-md-6">
+                        <h3 class="text-center text-primary mb-3">MEN</h3>
+                        <div id="right-products" class="row g-3"></div>
+
+                        <!-- زر Shop More -->
+                        <div class="text-center mt-4">
+                            <a href="../MEN/test1.html" class="btn btn-outline-primary px-4 py-2">SHOP MORE</a>
+                        </div>
+                    </div>
+
+                    <!-- النصف الأيسر: Group B -->
+                    <div class="col-md-6">
+                        <h3 class="text-center text-danger mb-3">WOMEN</h3>
+                        <div id="left-products" class="row g-3"></div>
+
+                        <!-- زر Shop More -->
+                        <div class="text-center mt-4">
+                            <a href="../WOMEN/woman.html" class="btn btn-outline-danger px-4 py-2">SHOP MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+        <!----------------------------------------------- footer ------------------------------------------------------>
+        <footer>
+            <div>
+                <a href="./home.html">
+                    <img src="./logo.png" alt="logo" class="footer-logo">
+                </a>
+            </div>
+
+            <div>
+                <div class="footer-title">MAIN MENU</div>
+                <ul class="footer-links">
+                    <a href="./home.html" class="link">
+                        <li>HOME</li>
+                    </a>
+                    <a href="./about us.html" class="link">
+                        <li>ABOUT US</li>
+                    </a>
+                    <a href="./Contact us.html" class="link">
+                        <li>CONTACT US</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div>
+                <div class="footer-title">MORE</div>
+                <ul class="footer-links">
+                    <a href="./Privacy Policy.html" class="link">
+                        <li>PRIVACY POLICY</li>
+                    </a>
+                    <a href="./Shipping Policy.html" class="link">
+                        <li>SHIPPING POLICY</li>
+                    </a>
+                    <a href="./Refund policy.html" class="link">
+                        <li>REFUND POLICY</li>
+                    </a>
+                    <a href="./Terms&conditions.html" class="link">
+                        <li>TERMS & CONDITIONS</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div>
+                <div class="footer-title">FOLLOW US</div>
+                <div class="social-icons">
+                    <a href="#"><img src="./facebook.png" alt="facebook" class="facebook"></a>
+                    <a href="#"><img src="./instagram.png" alt="instagram" class="instagram"></a>
+                    <a href="#"><img src="./whatsapp.png" alt="whatsapp" class="whatsapp"></a>
+                </div>
+            </div>
+        </footer>
+        <!------------------------------------------------ javascript ----------------------------------------->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+            </script>
+        <script src="./home.js"></script>
+        <script>
+            function updateNav() {
+                const username = localStorage.getItem('username');
+                const profileLink = document.getElementById('profile-link');
+                const usernameDisplay = document.getElementById('username-display');
+                const usernameSpan = document.getElementById('username');
+
+                if (username) {
+                    usernameDisplay.style.display = 'inline';
+                    profileLink.setAttribute('href', './profile.html');
+                    profileLink.setAttribute('title', `Profile: ${username}`);
+                    usernameSpan.textContent = username;
+                } else {
+                    usernameDisplay.style.display = 'none';
+                    profileLink.setAttribute('href', './Login.html');
+                    profileLink.setAttribute('title', 'Profile');
+                }
+            }
+
+            document.addEventListener('DOMContentLoaded', updateNav);
+        </script>
+</body>
+
+</html>
