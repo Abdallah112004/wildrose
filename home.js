@@ -1,38 +1,3 @@
-
-// function updateCartCount() {
-//     const cart = JSON.parse(localStorage.getItem('cart')) || [];
-//     const totalCount = cart.reduce((sum, item) => sum + (item.quantity || 1), 0);
-//     document.getElementById('cartCount').textContent = totalCount;
-// }    
-
-// function updateWishlistCount() {
-//     const wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
-//     const wishlistCountElement = document.getElementById('wishlistCount');
-//     if (wishlistCountElement) {
-//         wishlistCountElement.textContent = wishlist.length;
-//     }    
-// }    
-// updateCartCount();
-
-// function clearWishlist() {
-//     if (confirm("Are you sure you want to clear your wishlist?")) {
-//         wishlist = [];
-//         localStorage.setItem('wishlist', JSON.stringify(wishlist));
-//         renderWishlist();
-//         updateWishlistCount(); // ✅ لتحديث العداد بعد الحذف
-//     }
-// }
-
-// renderWishlist();
-
-// updateWishlistCount(); // ✅ لتحديث عداد المفضلة عند تحميل الصفحة
-
-
-// updateCartCount(); // ← استدعاء عند تحميل الصفحة
-
-
-
-
 function updateCartCount() {
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
     const totalCount = cart.reduce((sum, item) => sum + (item.quantity || 1), 0);

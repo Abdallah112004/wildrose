@@ -89,7 +89,7 @@ function displayDetails(product) {
               <i class="bi bi-heart"></i> Add to Wishlist
             </button>
 
-            <a href="home.html" class="btn btn-secondary">
+            <a href="index.html" class="btn btn-secondary">
               <i class="bi bi-arrow-left"></i> Back
             </a>
           </div>
